@@ -47,7 +47,7 @@ class PasswordEncryptor:
            return base64.urlsafe_b64encode(hashed_bytes).decode('utf-8').replace('+', '.')
        except hashlib.NoSuchAlgorithmException as e:
            raise Exception(f"Error while computing hash of type {self.hash_type}: {e}")
-
+           #/opt/ofbiz/runtime/data/derby/ofbiz/seg0/c54d0.dat
 # Example usage:
 hash_type = "SHA1"
 salt = "d"
