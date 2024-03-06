@@ -1,0 +1,3 @@
+exec();
+mysql
+-f b
